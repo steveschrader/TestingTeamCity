@@ -8,10 +8,12 @@ namespace TestingTeamCity.Models
     public class Person
     {
         public string Name { get; set; }
+        public string Lastname { get; set; }
 
         public Person(string name)
         {
             Name = name;
+            Lastname = "hellow";
         }
     }
 }
